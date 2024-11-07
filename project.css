@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+
+  body{
+    font-family: 'Figtree';
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container{
+    width: 400px;
+    align-content: center;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 10px 20px;
+    border-radius: 15px;
+  }
+
+  .image1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .image1 img{
+    border-radius: 10px;
+  }
+  
+  .content{
+    background-color: #f5d04e;
+    width: fit-content;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: small;
+  }
+  
+  .date{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: small;
+  }
+  
+  .heading{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .heading:hover{
+    cursor: pointer;
+    color: #f5d04e;
+  }
+  
+  .para{
+    font-size: medium;
+    color: gray;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .footer{
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #image2 img{
+    width: 40px;
+  }
+  
+  #name{
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+  }
